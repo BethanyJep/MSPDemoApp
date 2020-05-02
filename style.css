@@ -1,0 +1,83 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.logo-image{
+    width: 200px;
+    height: auto;
+}
+a {
+  display: inline-flex;
+  padding: 0px 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: #222;
+}
+h1{
+    font-size: 30px;
+    color: #000;
+    padding: 10px;
+}
+.jumbotron {
+    /* width: 100%; */
+    text-align: center;
+    color: #fff;
+    background-image: url(msps.JPG);
+    background-position: top;
+    padding: 20px 0px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0078d3;
+    color: #fff;
+}
+a:hover{
+    color: #0078d3;
+    font-weight: bold;
+}
+.jumbotron button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #0078d3;
+    background-color: #fff;
+}
+.card{
+    padding: 20px;
+}
+.card img{
+    width: 100%;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 30px;
+}
+footer{
+    padding: 0px 20px;
+    color: #fff;
+    background-color: #000;
+}
+footer a{
+    color: #fff;
+}
+.foots{
+    display: flex;
+    justify-content: space-between;
+}
+.drop{
+    margin: 20px;
+    box-shadow: 0px 0px 2px #555;
+}
+.drop:hover{
+    box-shadow: 2px 2px 12px #555;
+}
